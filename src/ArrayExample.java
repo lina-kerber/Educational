@@ -39,5 +39,15 @@ public class ArrayExample {
         for (int someInt : intsWithElements) {
             System.out.println(someInt * 2);
         }
+        int[] intsWithElementsSimple = {1, 2, 5, 2, 3};
+        int[][] matrixSimple = {{1, 2}, {3, 4}};
+        String[] stringsSimple = {"String", "Wow"};
+
+        int[][] squareMatrix = {{1, 2}, {3, 4}};
+        int[][] rectangleMatrix = {{1, 2}, {3, 4}, {5, 6}};
+        int[][] notMatrix = {{1}, {2, 3}, {4, 5, 6}};
+
+        System.out.println(Arrays.toString(intsWithElementsSimple));
+        System.out.println(Arrays.deepToString(notMatrix));
     }
 }
